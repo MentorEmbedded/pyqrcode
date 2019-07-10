@@ -1,0 +1,54 @@
+Source: pyqrcode
+Section: python
+Priority: optional
+Maintainer: Shrikant Bobade <shrikant_bobade@mentor.com>
+Build-Depends: debhelper,
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-nose,
+               python-pypng,
+               python3-all,
+               python3-setuptools,
+               python3-nose,
+               python3-pypng,
+Standards-Version: 4.3.0
+Homepage: https://github.com/mnooner256/pyqrcode
+
+Package: python-pyqrcode
+Architecture: all
+Depends: python-pypng, python:any (>= 2.7.5-5~)
+Description: Python 2 module to generate QR Codes
+ The pyqrcode module is a QR code generator that is simple to use and written
+ in pure Python. The module can automate most of the building process for
+ creating QR codes. Most codes can be created using only two lines of code.
+ .
+ Unlike other generators, all of the helpers can be controlled manually. You
+ are free to set any or all of the properties of your QR code. QR codes can be
+ saved as SVG, PNG, and plain text. They can also be displayed directly in
+ most Linux terminal emulators.
+ .
+ The pyqrcode module attempts to follow the QR code standard as closely as
+ possible. The terminology, encodings and algorithms used in pyqrcode come
+ directly from the standard.
+ .
+ This package contains the Python 2 version.
+
+Package: python3-pyqrcode
+Architecture: all
+Depends: python3-pypng, python3:any (>= 3.3.2-2~)
+Description: Python 3 module to generate QR Codes
+ The pyqrcode module is a QR code generator that is simple to use and written
+ in pure Python. The module can automate most of the building process for
+ creating QR codes. Most codes can be created using only two lines of code.
+ .
+ Unlike other generators, all of the helpers can be controlled manually. You
+ are free to set any or all of the properties of your QR code. QR codes can be
+ saved as SVG, PNG, and plain text. They can also be displayed directly in
+ most Linux terminal emulators.
+ .
+ The pyqrcode module attempts to follow the QR code standard as closely as
+ possible. The terminology, encodings and algorithms used in pyqrcode come
+ directly from the standard.
+ .
+ This package contains the Python 3 version.
